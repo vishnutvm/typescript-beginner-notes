@@ -1,44 +1,47 @@
-```markdown
 # TypeScript Types Guide
 
 Welcome to the TypeScript Types Guide! This guide will help you understand TypeScript variable types with detailed explanations and examples.
 
-
 ## Table of Contents
-1. [Prerequisites](#Prerequisites)
-2. [Installation and Setup](#Installation and Setup)
+1. [Prerequisites](#prerequisites)
+2. [Installation and Setup](#installation-and-setup)
 3. [Infer types (Implicit types)](#infer-types-implicit-types)
 4. [Defining types (Explicit types)](#defining-types-explicit-types)
 
-
-
 ## Prerequisites
 
-* Knowledge of JavaScript
-* TypeScript installed on your machine
-
+- Knowledge of JavaScript
+- TypeScript installed on your machine
 
 ## Installation and Setup
 
 To install TypeScript, run the following command:
 
+```bash
 npm install -g typescript
+```
 
 To verify that TypeScript is installed correctly, run the following command:
 
+```bash
 tsc
+```
 
 This should output a message like the following:
 
+```
 Version 4.9.4
+```
 
 To use TypeScript, create a new file with a .ts extension. For example, you could create a file called types.ts.
 
 In your types.ts file, you can define types for your variables. For example, you could define a type called UserName as follows:
 
-typescript
+```
 type UserName = string;
-
+// Now, you can use UserName to define variables.
+let username: UserName = "John";
+```
 
 
 
